@@ -1,27 +1,25 @@
-# Collective Behavior Project
+# Collective Behavior Project: from predator to shepherd
 
-## Team
+## Team (Group F)
 
 | Name | GitHub |
 |------|--------|
 | Mathieu Bonnet | [@mathieusharp](https://github.com/mathieusharp) |
 | Loup Benois | [@loulliam](https://github.com/loulliam) |
-| Alexandre Peret| [@elysios-05](https://github.com/elysios-05) |
+| Alexandre Peret | [@elysios-05](https://github.com/elysios-05) |
 
 ## Starting point
 
-TODO: reference of the chosen paper (authors, title, journal, year, link) and a one-line summary of the collective animal behaviour model it describes.
+Klamser & Romanczuk (2021). Collective predator evasion: Putting the criticality hypothesis to the test. PLoS Computational Biology. [doi:10.1371/journal.pcbi.1008832](https://doi.org/10.1371/journal.pcbi.1008832), [original code](https://github.com/PaPeK/PredatorPrey).
+
+The paper simulates a 2D school of fish attacked by a predator. The predator catches the fewest fish when the school is halfway between disordered and fully aligned.
 
 ## Project description
 
-TODO: one paragraph describing what we plan to do: reproduce the model from the starting paper, then extend it (e.g. new interaction rules, environmental factors, parameter study) and analyse the resulting collective behaviour.
+We reimplement the model in Python and reproduce its main result. We then improve the predator with one behavioural change, such as its attack angle, and also test whether the result holds in 3D. Finally, we turn the predator into a shepherd that steers the school without breaking it apart, trying to adapt to fish the model of [Strömbom et al. (2014)](https://doi.org/10.1098/rsif.2014.0719) (a single sheepdog herding a flock of sheep).
 
 ## Plan / milestones
 
-- **Report 1 — TODO: date_**: literature review, understanding of the model, first implementation of the simulation.
-- **Report 2 — TODO: date_**: reproduction of the paper's main results, start of the extension.
-- **Report 3 (final) — TODO: date_**: completed extension, analysis of results, final report.
-
-## Progress
-
-This section will be updated regularly during the course.
+- Report 1 (13 Nov 2026): literature review, Python reimplementation, reproduction of the main result.
+- Report 2 (11 Dec 2026): improved predator, 3D version of the model, comparison with the literature.
+- Report 3 (8 Jan 2027): shepherd, compared with [Van Havermaet et al. (2024)](https://doi.org/10.1038/s41598-024-65894-5) (a group of robots that encircle a fish school to guide it); final report.
