@@ -1,12 +1,6 @@
-# Collective Behavior Project: from predator to shepherd
+# Fish school predator dynamics
 
-## Team (Group F)
-
-| Name | GitHub |
-|------|--------|
-| Mathieu Bonnet | [@mathieusharp](https://github.com/mathieusharp) |
-| Loup Benois | [@loulliam](https://github.com/loulliam) |
-| Alexandre Peret | [@Elysios05](https://github.com/Elysios05) |
+Group project for the Collective Behaviour course at the Faculty of Computer and Information Science, University of Ljubljana (2026/27).
 
 ## Starting point
 
@@ -23,3 +17,11 @@ We reimplement the model in Python and reproduce its main result. We then improv
 - Report 1 (13 Nov 2026): literature review, Python reimplementation, reproduction of the main result.
 - Report 2 (11 Dec 2026): improved predator, 3D version of the model, comparison with the literature.
 - Report 3 (8 Jan 2027): shepherd, compared with [Van Havermaet et al. (2024)](https://doi.org/10.1038/s41598-024-65894-5) (a group of robots that encircle a fish school to guide it); final report.
+
+## Team (Group F)
+
+| Name | GitHub |
+|------|--------|
+| Mathieu Bonnet | [@mathieusharp](https://github.com/mathieusharp) |
+| Loup Benois | [@loulliam](https://github.com/loulliam) |
+| Alexandre Peret | [@Elysios05](https://github.com/Elysios05) |
