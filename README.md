@@ -6,7 +6,7 @@
 |------|--------|
 | Mathieu Bonnet | [@mathieusharp](https://github.com/mathieusharp) |
 | Loup Benois | [@loulliam](https://github.com/loulliam) |
-| Alexandre Peret | [@elysios-05](https://github.com/elysios-05) |
+| Alexandre Peret | [@Elysios05](https://github.com/Elysios05) |
 
 ## Starting point
 
