@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# simulation outputs
+*.npz
+*.h5
+results/
+*:Zone.Identifier
