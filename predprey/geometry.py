@@ -16,8 +16,13 @@ def delaunay_edges(points):
         return np.array([(i, j) for i in range(n) for j in range(i + 1, n)], dtype=int).reshape(-1, 2)
     try:
         tri = Delaunay(points)
-    except QhullError:  # degenerate configuration, e.g. all points aligned
-        tri = Delaunay(points, qhull_options="QJ")
+    except QhullError:  # degenerate configuration
+        try:
+            tri = Delaunay(points, qhull_options="QJ")
+        except QhullError:  # all points aligned: neighbours are consecutive along the line
+            direction = points[-1] - points[0]
+            order = np.argsort(points @ direction)
+            return np.sort(np.column_stack([order[:-1], order[1:]]), axis=1)
     s = tri.simplices
     edges = np.concatenate([s[:, [0, 1]], s[:, [1, 2]], s[:, [2, 0]]])
     edges.sort(axis=1)
